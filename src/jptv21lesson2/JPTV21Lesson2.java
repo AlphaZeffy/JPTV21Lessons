@@ -121,6 +121,15 @@ public class JPTV21Lesson2 {
         
         System.out.print("------------------------\n");
         
+        System.out.print("proverka nali4ija vsex bukv alfavita");
+        Scanner scanner5  = new Scanner(System.in);
+        String str = scanner5.nextLine();
+        char[] strChar = str.toCharArray();
+        char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+        if(alphabet() in strChar){
+            System.out.print("vse bukvi alfavita soderwatsja v stroke");
+        }
+       
         
         
         System.out.print("------------------------\n");
@@ -160,6 +169,8 @@ public class JPTV21Lesson2 {
         
 
     }
+
+   
 
 }
 
